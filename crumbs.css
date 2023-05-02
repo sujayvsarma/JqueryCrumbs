@@ -1,0 +1,25 @@
+.crumbs-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.crumb-item {
+    width: auto;
+    display: inline-flex;
+    background-color: #0d7dcf;
+    color: #ffffff;
+    padding: 5px;
+    padding-left: 10px;
+    text-transform: lowercase;
+    margin-left: 0.8em;
+    margin-top: 0.8em;
+}
+
+.crumb-remove-button {
+    margin-left: 1.5em;
+    float: right;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
